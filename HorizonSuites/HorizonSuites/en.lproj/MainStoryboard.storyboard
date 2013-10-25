@@ -29,7 +29,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="0.20392158630000001" green="0.090196080509999998" blue="0.64313727620000005" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.71758237089999999" green="0.058193482849999999" blue="0.12600256439999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="O4o-UE-xmZ" firstAttribute="bottom" secondItem="3do-Sr-ysv" secondAttribute="bottom" type="default" id="B2N-qS-ZiI"/>
                             <constraint firstItem="SHt-P2-DDP" firstAttribute="leading" secondItem="3do-Sr-ysv" secondAttribute="leading" constant="132" id="YlI-xj-JXC"/>
@@ -50,7 +50,7 @@
                     <view key="view" contentMode="scaleToFill" id="BgG-O6-zGb">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.20392158630000001" green="0.090196080509999998" blue="0.64313727620000005" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.71758237089999999" green="0.058193482849999999" blue="0.12600256439999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pictures" id="J7O-MG-xAp"/>
                 </viewController>
@@ -612,7 +612,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.20392158630000001" green="0.090196080509999998" blue="0.64313727620000005" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.71758237089999999" green="0.058193482849999999" blue="0.12600256439999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="JRL-Sm-4vg" firstAttribute="top" secondItem="WUU-aZ-D3n" secondAttribute="top" constant="11" id="2Na-ZE-x59"/>
                             <constraint firstItem="2Fx-oC-q4Y" firstAttribute="top" secondItem="Zdm-WK-A1z" secondAttribute="top" type="default" id="69C-Uk-5Or"/>
