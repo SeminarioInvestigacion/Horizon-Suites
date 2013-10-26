@@ -32,8 +32,7 @@
     self.picker_cuarto.dataSource = self;
     [self.view addSubview:self.picker_cuarto];
     
-    _arrayC= [[NSMutableArray alloc] initWithObjects:@"Simple",@"Doble",@"Suite", nil];
-
+    _arrayC= [[NSMutableArray alloc] initWithObjects:@"Simple",@"Double",@"Suite", nil];
   
 }
 
@@ -69,18 +68,26 @@
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
 {
+    
     if (row==0){
         room_type=@"Simple";
+        extern_room_type=1;
+        costo=73;
         
     } if (row==1){
         
        room_type=@"Double";
+        extern_room_type=2;
+        costo=95;
         
     } if (row==2){
         
-       room_type=@"Suite";  
+       room_type=@"Suite";
+        extern_room_type=3;
+        costo=115;
     }
-    NSLog(room_type);
+   // NSLog(room_type);
+     
 }
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component;
