@@ -687,6 +687,75 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <image name="logotipo 2.png" width="143" height="82"/>
         <image name="twitter_icon.png" width="50" height="50"/>
     </resources>
+    <classes>
+        <class className="Fecha2ViewController" superclassName="ViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Fecha2ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="datepicker_checkout" candidateClass="UIDatePicker"/>
+            </relationships>
+        </class>
+        <class className="FechaViewController" superclassName="ViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FechaViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel_selection:"/>
+                <relationship kind="action" name="set_date:"/>
+                <relationship kind="outlet" name="SetDate" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="checkin_datepicker" candidateClass="UIDatePicker"/>
+            </relationships>
+        </class>
+        <class className="HomeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="Send_Mail:"/>
+                <relationship kind="action" name="cargar:"/>
+                <relationship kind="action" name="fb_button:"/>
+                <relationship kind="action" name="tw_Button:"/>
+                <relationship kind="outlet" name="imagen" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="logo" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="twitter_button" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ReservarViewController" superclassName="ViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ReservarViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="reservar:"/>
+                <relationship kind="outlet" name="confirmation" candidateClass="UIAlertView"/>
+                <relationship kind="outlet" name="label_checkin" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="label_checkout" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="label_room" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="textfield_email" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="textfield_firstname" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="textfield_lastname" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="textfield_phone1" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="textfield_phone2" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="textfield_skype" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="RoomViewController" superclassName="ViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RoomViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="picker_cuarto" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+        <class className="ServiciosViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ServiciosViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scroll" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="UbicacionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UbicacionViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
