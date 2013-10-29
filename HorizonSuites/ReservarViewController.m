@@ -9,14 +9,31 @@
 #import "ReservarViewController.h"
 
 @interface ReservarViewController (){
+    int costo;
+    int dias;
+    int total;
+    
 
 }
 
 @end
+/*
+extern NSDate *extern_fecha_checkin;
+extern NSDate *extern_fecha_checkout;
+extern NSInteger extern_room_type;
+extern NSInteger indicador_fecha_checkin;
+extern NSInteger indicador_fecha_checkout;
 
+ */
 @implementation ReservarViewController
 NSString *str;
 
+extern NSDate *extern_fecha_checkin;
+extern NSDate *extern_fecha_checkout;
+extern NSInteger extern_room_type;
+extern NSInteger indicador_fecha_checkin;
+extern NSInteger indicador_fecha_checkout;
+extern  NSInteger costo;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -41,7 +58,34 @@ NSString *str;
     self.label_checkin.text=self.fecha_checkin;
     self.label_checkout.text=self.fecha_checkout;
     self.label_room.text=self.room_type;
-   
+  
+    if (indicador_fecha_checkin==1) {
+        NSDateFormatter *form = [[NSDateFormatter alloc] init];
+        [form setDateFormat:@"MM-dd-YYYY"];
+        NSString *str = [form stringFromDate:extern_fecha_checkin];
+        self.label_checkin.text=str;
+    }
+    if (indicador_fecha_checkout==1) {
+        NSDateFormatter *form = [[NSDateFormatter alloc] init];
+        [form setDateFormat:@"MM-dd-YYYY"];
+        NSString *str = [form stringFromDate:extern_fecha_checkout];
+        self.label_checkout.text=str;
+    }
+    if (extern_room_type==1){
+        self.label_room.text=@"Simple";
+        costo=80;
+    
+    } else if (extern_room_type==2){
+        self.label_room.text=@"Double";
+        costo=95;
+        
+    }else if (extern_room_type==1){
+        self.label_room.text=@"Suite";
+        costo=115;
+        
+    }
+    
+    
 	// Do any additional setup after loading the view.
 }
 
@@ -76,7 +120,19 @@ NSString *str;
 
 - (IBAction)reservar:(id)sender {
     
-    confirmation = [[UIAlertView alloc] initWithTitle:@"Confirmation" message:@"El precio es de $67" delegate:self cancelButtonTitle: @"Cancel" otherButtonTitles:@"Confirm", nil];
+    NSTimeInterval secondsBetween = [extern_fecha_checkout timeIntervalSinceDate:extern_fecha_checkin];
+    
+    int numberOfDays = secondsBetween / 86400;
+    
+    
+    total = costo* numberOfDays;
+    
+   // NSLog(@"There are %d days in between the two dates.", numberOfDays);
+
+    
+    NSString *mensaje =[NSString stringWithFormat:@"Su reservacion sera por %i ", total];
+    
+    confirmation = [[UIAlertView alloc] initWithTitle:@"Confirmation" message:mensaje delegate:self cancelButtonTitle: @"Cancel" otherButtonTitles:@"Confirm", nil];
 
     [confirmation show];
     

@@ -47,9 +47,11 @@
         NSDateFormatter *form = [[NSDateFormatter alloc] init];
         [form setDateFormat:@"MM-dd-YYYY"];
         NSString *str = [form stringFromDate:selected];
-        NSLog(str);
+        //NSLog(str);
         ReservarViewController *destino2 = [segue destinationViewController];
         destino2.fecha_checkout=str;
+        extern_fecha_checkout=selected;
+        indicador_fecha_checkout=1;
         
         
         

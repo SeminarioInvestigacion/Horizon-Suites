@@ -10,6 +10,14 @@
 
 #import "AppDelegate.h"
 
+
+ NSDate *extern_fecha_checkin;
+ NSDate *extern_fecha_checkout;
+ NSInteger extern_room_type;
+ NSInteger indicador_fecha_checkin;
+ NSInteger indicador_fecha_checkout;
+ NSInteger costo;
+
 int main(int argc, char *argv[])
 {
     @autoreleasepool {

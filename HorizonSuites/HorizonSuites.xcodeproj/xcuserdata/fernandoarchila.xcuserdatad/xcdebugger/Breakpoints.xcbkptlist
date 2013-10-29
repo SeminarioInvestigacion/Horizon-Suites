@@ -43,24 +43,37 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "ReservarViewController.m"
-         timestampString = "404024986.639069"
+         timestampString = "404451621.298564"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "88"
-         endingLineNumber = "88">
+         startingLineNumber = "144"
+         endingLineNumber = "144">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HorizonSuites/main.m"
-         timestampString = "403415275.408477"
+         timestampString = "404451621.298564"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "16"
-         endingLineNumber = "16"
+         startingLineNumber = "24"
+         endingLineNumber = "24"
          landmarkName = "main()"
          landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "ReservarViewController.m"
+         timestampString = "404451621.298564"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "133"
+         endingLineNumber = "133"
+         landmarkName = "-reservar:"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
