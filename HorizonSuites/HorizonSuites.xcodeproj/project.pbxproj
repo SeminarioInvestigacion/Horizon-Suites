@@ -33,7 +33,12 @@
 		D2A3769417F63A4400ACB6C9 /* logotipo 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2A3768F17F63A4400ACB6C9 /* logotipo 2.png */; };
 		D2A3769717F6496A00ACB6C9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769617F6496A00ACB6C9 /* HomeViewController.m */; };
 		D2A3769A17F67AEC00ACB6C9 /* ServiciosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */; };
-		D2E56A8F180BA52200E99F96 /* ReservarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A8E180BA52200E99F96 /* ReservarViewController.m */; };
+		D2CEF8D5181A469A00AD1AA3 /* ReservarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A8E180BA52200E99F96 /* ReservarViewController.m */; };
+		D2CEF8D7181B79A500AD1AA3 /* Mail-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CEF8D6181B79A500AD1AA3 /* Mail-icon.png */; };
+		D2CEF8D9181B7F5400AD1AA3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CEF8D8181B7F5400AD1AA3 /* MessageUI.framework */; };
+		D2CEF94B181F570300AD1AA3 /* checkout_imagen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2CEF949181F570300AD1AA3 /* checkout_imagen.jpeg */; };
+		D2CEF94E181F594300AD1AA3 /* CheckIn_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2CEF94D181F594300AD1AA3 /* CheckIn_img.jpg */; };
+		D2CEF950181F5E9400AD1AA3 /* rooms.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CEF94F181F5E9400AD1AA3 /* rooms.png */; };
 		D2E56A92180D0B1D00E99F96 /* Fecha2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A91180D0B1D00E99F96 /* Fecha2ViewController.m */; };
 		D2E56A95180E651C00E99F96 /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E56A94180E651B00E99F96 /* RoomViewController.m */; };
 		D2FFD58317FC79170012D37A /* medico.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D2FFD57417FC79170012D37A /* medico.jpeg */; };
@@ -93,6 +98,11 @@
 		D2A3769617F6496A00ACB6C9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
 		D2A3769817F67AEC00ACB6C9 /* ServiciosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiciosViewController.h; sourceTree = "<group>"; };
 		D2A3769917F67AEC00ACB6C9 /* ServiciosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiciosViewController.m; sourceTree = "<group>"; };
+		D2CEF8D6181B79A500AD1AA3 /* Mail-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail-icon.png"; sourceTree = "<group>"; };
+		D2CEF8D8181B7F5400AD1AA3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D2CEF949181F570300AD1AA3 /* checkout_imagen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = checkout_imagen.jpeg; sourceTree = "<group>"; };
+		D2CEF94D181F594300AD1AA3 /* CheckIn_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CheckIn_img.jpg; sourceTree = "<group>"; };
+		D2CEF94F181F5E9400AD1AA3 /* rooms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rooms.png; sourceTree = "<group>"; };
 		D2E56A8D180BA52200E99F96 /* ReservarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReservarViewController.h; path = ../ReservarViewController.h; sourceTree = "<group>"; };
 		D2E56A8E180BA52200E99F96 /* ReservarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReservarViewController.m; path = ../ReservarViewController.m; sourceTree = "<group>"; };
 		D2E56A90180D0B1D00E99F96 /* Fecha2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fecha2ViewController.h; sourceTree = "<group>"; };
@@ -126,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CEF8D9181B7F5400AD1AA3 /* MessageUI.framework in Frameworks */,
 				404E8AAA17F7E2CC00672F2F /* CoreLocation.framework in Frameworks */,
 				404E8AA817F7E2BB00672F2F /* MapKit.framework in Frameworks */,
 				D2A3766917F62C8A00ACB6C9 /* UIKit.framework in Frameworks */,
@@ -149,6 +160,8 @@
 		D2A3765C17F62C8A00ACB6C9 = {
 			isa = PBXGroup;
 			children = (
+				D2CEF8D8181B7F5400AD1AA3 /* MessageUI.framework */,
+				D2CEF8D6181B79A500AD1AA3 /* Mail-icon.png */,
 				D2FFD59217FC79220012D37A /* thumbnails */,
 				404E8AA917F7E2CC00672F2F /* CoreLocation.framework */,
 				404E8AA717F7E2BB00672F2F /* MapKit.framework */,
@@ -184,7 +197,13 @@
 		D2A3766E17F62C8A00ACB6C9 /* HorizonSuites */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				403A8370181DC62E00834C0C /* h1.jpg */,
+=======
+				D2CEF94F181F5E9400AD1AA3 /* rooms.png */,
+				D2CEF94D181F594300AD1AA3 /* CheckIn_img.jpg */,
+				D2CEF949181F570300AD1AA3 /* checkout_imagen.jpeg */,
+>>>>>>> 3f0092341d88d8d8841e2212228d83a8e122cb19
 				D2FFD5A1180B1E580012D37A /* FechaViewController.h */,
 				D2FFD5A2180B1E580012D37A /* FechaViewController.m */,
 				D2FFD5981801F2340012D37A /* SimpleTableCell.h */,
@@ -332,8 +351,15 @@
 				D2FFD59017FC79170012D37A /* room_Service.jpeg in Resources */,
 				D2FFD59117FC79170012D37A /* restaurante.jpeg in Resources */,
 				D2FFD5971801ED190012D37A /* SimpleTableCell.xib in Resources */,
+<<<<<<< HEAD
 				403A8371181DC62E00834C0C /* h1.jpg in Resources */,
 				4092114F181F56C600988B69 /* h2.jpg in Resources */,
+=======
+				D2CEF8D7181B79A500AD1AA3 /* Mail-icon.png in Resources */,
+				D2CEF94B181F570300AD1AA3 /* checkout_imagen.jpeg in Resources */,
+				D2CEF94E181F594300AD1AA3 /* CheckIn_img.jpg in Resources */,
+				D2CEF950181F5E9400AD1AA3 /* rooms.png in Resources */,
+>>>>>>> 3f0092341d88d8d8841e2212228d83a8e122cb19
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CEF8D5181A469A00AD1AA3 /* ReservarViewController.m in Sources */,
 				D2A3767517F62C8A00ACB6C9 /* main.m in Sources */,
 				D2A3767917F62C8A00ACB6C9 /* AppDelegate.m in Sources */,
 				D2A3768517F62C8B00ACB6C9 /* ViewController.m in Sources */,
@@ -353,7 +380,6 @@
 				402F32DE17F90860002AF8C8 /* MapPoint.m in Sources */,
 				D2FFD59A1801F2340012D37A /* SimpleTableCell.m in Sources */,
 				D2FFD5A3180B1E590012D37A /* FechaViewController.m in Sources */,
-				D2E56A8F180BA52200E99F96 /* ReservarViewController.m in Sources */,
 				D2E56A92180D0B1D00E99F96 /* Fecha2ViewController.m in Sources */,
 				D2E56A95180E651C00E99F96 /* RoomViewController.m in Sources */,
 				403A836F181DBBCF00834C0C /* PicturesViewController.m in Sources */,
